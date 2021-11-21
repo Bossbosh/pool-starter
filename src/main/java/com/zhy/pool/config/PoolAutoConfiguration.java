@@ -17,6 +17,7 @@ public class PoolAutoConfiguration {
     @Autowired
     private DataSourceProperties dataSourceProperties;
 
+
     @Bean
     public DataSource druidDataSource(){
         DruidDataSource druidDataSource = new DruidDataSource();
